@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn_Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="Main-tag">
+    <header class="Header">Please Login To Continue</header>
+    <div class="login-form">
+        <div class="sign-in">Sign In <span class="close-icon-click">&#215</span></div>
+        <div class="user-icon">
+            <img class="user-img" src="./Images/user-icon2.png" alt="">
+        </div>
+        <div class="Username">
+            <img calss= "check-icon" src="./images/tick-icon.jpg" alt="check-icon">
+            <input id= "user-name" class="goal-input" type="text" placeholder="Username or email" />
+        </div>
+        <div class="password">
+            <img calss= "check-icon" src="./images/tick-icon.jpg" alt="check-icon">
+            <input id= "password" class="goal-input" type="password" placeholder="password" />
+        </div>
+
+        <input type="checkbox" class="rem" value="Remember me" name="rem">
+        <label for="rem" class="Rem">Remember me</label>
+        <p>Forget password</p>
+        <div onclick="logIn()" class="sign-button">Log In</div>
+    </div>
+
+    <div class="signed-success">
+        <p>Signed Successfully!</p>
+    </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+.bdy {
+    background-color: rgba(225, 225, 225, 225);
+}
+
+.Main-div {
+    /* margin-bottom: 20px; */
+}
+
+.item-added {
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.A1 {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    height: 24px;
+}
+
+.A1 img {
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.A2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: solid 1px red;
+    border-radius: 5px;
+    height: 24px;
+}
+
+.item-added img {
+    width: 18px;
+    height: 18px;
+}
+
+.items {
+    display: grid;
+    place-items: center;
+    min-height: 50px;
+}
+
+.items h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.items p {
+    font-size: 14px;
+}
+
+.items p {
+    margin: 0 auto;
+}
+
+.price {
+    display: grid;
+    place-items: end;
+    height: 50px;
+}
+.price h4 {
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.coupons {
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.coupons img {
+    width: 20px;
+    height: 20px;
+}
+
+.B1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 24px;
+}
+
+.B2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 24px;
+}
+
+.res-coupons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-coupons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delivery-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.delivery-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.C1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.C2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.C2 div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.C3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.C3 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.C4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.C4 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.policy {
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+
+@media (min-width : 657px){
+    .bdy {
+        padding: 20px;
+    }
+
+    .item-added {
+        border-radius: 12px;
+        padding: 20px;
+    }
+
+    .A1 {
+        gap: 14px;
+    }
+
+    A2 {
+        gap: 24px;
+        border: solid 1px red;
+        border-radius: 10px;
+        height: 24px;
+    }
+
+    .coupons {
+        border-radius: 12px;
+        padding: 20px;
+        margin-top: 24px;
+    }
+
+    .delivery-container {
+        border-radius: 12px;
+        padding: 20px;
+        margin-top: 24px;
+    }
+}
